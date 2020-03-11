@@ -41,21 +41,10 @@ const Login = props => {
     );
   };
 
-  // function validateForm() {
-  //   let length = credentials.length > 0;
-  //   return length;
-  //   if (credentials.length <= 0) {
-  //     alert("Please fill out all entry fields")
-  //   } else if ( ){
-
-  //   }
-  // }
-
   return (
     <form
       className="login-form"
       onSubmit={handleLogin}
-      // disabled={!validateForm}
     >
       <fieldset className="form">
         <h3 className="header">Please Sign In</h3>
