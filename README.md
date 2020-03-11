@@ -21,14 +21,14 @@ Steps to get started:
 ## Overview
 
 In this site, users can engage with several different apps:
-* Home (Kurt): displays the events of users you follow
-* News (Landon): to add, edit, and delete news articles; view news posted by users you have followed
-* Chat (Keith): to post and edit messages; follow users
-* Events (Kurt): to add, edit, and delete events
-* Followings (Keith): to follow and unfollow users
-* Tasks (Matt): to add, edit, delete and 'mark complete' user tasks
-* Create User (Kurt): to create a new account (*)
-* Login (Matt): to login to an existing account (*)
+* Home: displays the events of users you follow
+* News: to add, edit, and delete news articles; view news posted by users you have followed
+* Chat: to post and edit messages; follow users
+* Events: to add, edit, and delete events
+* Followings: to follow and unfollow users
+* Tasks: to add, edit, delete and 'mark complete' user tasks
+* Create User: to create a new account (*)
+* Login: to login to an existing account (*)
 
 (*) **Note: this is not true authentication.** Passwords are saved in clear text on the JSON database. Do not use any sensitive information. 
 
