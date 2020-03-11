@@ -107,4 +107,10 @@ export default {
     const result = await fetch(`http://localhost:8200/tasks?isComplete=false`);
     return await result.json();
   },
+  async get() {
+    const response = await fetch(
+      `https://api.nasa.gov/planetary/apod?api_key=oVbjj1iEMr2fXGT6jgNQugBlL69tPWDaRsZaDbPl`
+    );
+    return await response.json();
+  }
 };

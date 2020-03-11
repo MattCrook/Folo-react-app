@@ -24,19 +24,21 @@ const Login = props => {
   // ONLY for purposes of this project and using JSON server. Without Server Side.
   const handleLogin = e => {
     e.preventDefault();
-    ApiManager.getLogin("users", credentials.email, credentials.password).then(
-      response => {
-        if (response.length > 0 && isChecked === true) {
-          props.setUser(response[0], true);
-          setCredentials(response[0]);
-          props.history.push("/");
-        } else if (response.length > 0 && isChecked === false) {
-          props.setUser(response[0], false);
-          setCredentials(response[0]);
-          props.history.push("/");
-        } else {
-          alert("Please type in the correct email/password");
-        }
+    // ApiManager.getLogin("users", credentials.email, credentials.password).then(
+      ApiManager.getData().then(data => {
+        console.log(data)
+      // response => {
+      //   if (response.length > 0 && isChecked === true) {
+      //     props.setUser(response[0], true);
+      //     setCredentials(response[0]);
+      //     props.history.push("/");
+      //   } else if (response.length > 0 && isChecked === false) {
+      //     props.setUser(response[0], false);
+      //     setCredentials(response[0]);
+      //     props.history.push("/");
+      //   } else {
+      //     alert("Please type in the correct email/password");
+      //   }
       }
     );
   };
