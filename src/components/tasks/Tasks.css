@@ -1,0 +1,97 @@
+.tasks-card {
+  /* Add shadows to create the "card" effect */
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  border-radius: 5px; /* 5px rounded corners */
+  background: aliceblue;
+  margin-bottom: 2em;
+  flex: 0 1 24%;
+  width: 500px;
+  display: flex;
+  flex-direction: row;
+  margin-left: 60px;
+}
+
+.task-card-content {
+  padding: 0.5em;
+}
+
+.task-card-content h3 {
+  margin-top: 0;
+  margin-bottom: 0.5em;
+  font-weight: bold;
+  color: black;
+}
+
+.task-card-content p {
+  font-size: 80%;
+  color: darkslategrey;
+}
+.tasks-card button {
+  background-color: black;
+  border: none;
+  color: cornsilk;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+  padding: 0.5em;
+  border-radius: 2px;
+  margin: 0.1em;
+  width: 100%;
+}
+
+.tasks-card button:hover {
+  background-color: darkblue;
+}
+
+button.btn {
+  cursor: pointer;
+  text-align: center;
+  color: beige;
+  font-family: "Josefin Sans", sans-serif;
+  text-transform: uppercase;
+  font-weight: 200;
+  background: #8a2387;
+  background: linear-gradient(to right, #f27121, #e94057, #8a2387);
+  border: 1px solid black;
+  box-shadow: 3px 3px 3px 3px var(--darkLiver);
+  border-radius: 5px;
+  font-size: 12px;
+}
+.task-card-content {
+    justify-content: center;
+    flex-direction: row;
+  }
+.task-section-content {
+  display: flex;
+  justify-content: center;
+}
+
+button.mark-complete-save-btn {
+  width: 50px;
+  display: flex;
+  align-content: flex-start;
+  text-decoration: none;
+  color: black;
+  letter-spacing: 1px;
+  padding: 1px 1px 1px 1px;
+  background-color: whitesmoke;
+
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.2s;
+}
+input.task-checkbox {
+  width: 30px;
+  display: flex;
+
+
+}
+label.is-task-complete {
+  text-decoration: none;
+  color: black;
+  letter-spacing: 1px;
+  padding: 1px 1px 1px 1px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.2s;
+  width: 30px;
+}

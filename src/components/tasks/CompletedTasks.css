@@ -1,0 +1,33 @@
+.tasks-card {
+  /* Add shadows to create the "card" effect */
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  border-radius: 5px; /* 5px rounded corners */
+  background: aliceblue;
+  margin-bottom: 2em;
+  flex: 0 1 24%;
+  width: 500px;
+
+}
+
+.task-card-content p {
+  font-size: 80%;
+  color: darkslategrey;
+}
+.tasks-card button {
+  background-color: black;
+  border: none;
+  color: cornsilk;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+  padding: 0.5em;
+  border-radius: 2px;
+  margin: 0.1em;
+  width: 100%;
+}
+
+.tasks-card button:hover {
+  background-color: darkblue;
+
+}

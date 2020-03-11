@@ -1,0 +1,14 @@
+.fs-form input {
+    font-family: "Open Sans", sans-serif;
+    position: relative;
+    display: block;
+    margin: 20px auto;
+    padding: 10px;
+    width: 84%;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    border-radius: 4px;
+    text-align: center;
+  
+}

@@ -1,0 +1,69 @@
+.newsCardContent {
+    margin: 50px 90px 0 90px;
+}
+
+.addNewsBtn {
+    margin: 50px 90px 0 0;
+    background-color: lightgreen;
+    border-radius: 5px;
+}
+
+#newsEditFormBtn #newsFormBtn {
+    transition: 0.3s ease;
+}
+
+#newsFormBtn:hover{
+    background-color:rgb(0, 81, 128) !important;
+    color: white !important;
+    transition: 0.3s ease;
+}
+
+#newsEditFormBtn:hover{
+    background-color:rgb(0, 81, 128) !important;
+    color: white !important;
+    transition: 0.3s ease;
+}
+
+.newsEditForm {
+    margin: 30px 0 0 25px;
+    border: 0;
+}
+
+#newsTrashIcon:hover{
+    opacity: 0.8;
+    cursor: pointer;
+}
+
+#newsDetailsTrashIcon:hover{
+    opacity: 0.8;
+    cursor: pointer;
+}
+
+#newsDetailsEditIcon:hover{
+    opacity: 0.8;
+    cursor: pointer;
+}
+
+#newsDetailIcon:hover{
+    opacity: 0.8;
+    cursor: pointer;
+}
+
+#newsFileIcon:hover{
+    opacity: 0.8;
+    cursor: pointer;
+}
+
+.newsSectionHeader {
+    margin-left: 90px;
+    margin-bottom: -20px;
+}
+
+.icon-container {
+    margin-right: 90px;
+}
+.followNewsArticles{
+    padding: 2%;
+    margin-top: 40px;
+    background-color: rgba(194, 194, 194, 0.26);
+}
