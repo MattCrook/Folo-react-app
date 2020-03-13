@@ -25,20 +25,20 @@ const Login = props => {
   const handleLogin = e => {
     e.preventDefault();
     // ApiManager.getLogin("users", credentials.email, credentials.password).then(
-      ApiManager.getData().then(data => {
-        console.log(data)
+      ApiManager.get().then(response => {
+        console.log(response)
       // response => {
-      //   if (response.length > 0 && isChecked === true) {
-      //     props.setUser(response[0], true);
-      //     setCredentials(response[0]);
-      //     props.history.push("/");
-      //   } else if (response.length > 0 && isChecked === false) {
-      //     props.setUser(response[0], false);
-      //     setCredentials(response[0]);
-      //     props.history.push("/");
-      //   } else {
-      //     alert("Please type in the correct email/password");
-      //   }
+        if (response.length > 0 && isChecked === true) {
+          props.setUser(response[0], true);
+          setCredentials(response[0]);
+          props.history.push("/");
+        } else if (response.length > 0 && isChecked === false) {
+          props.setUser(response[0], false);
+          setCredentials(response[0]);
+          props.history.push("/");
+        } else {
+          alert("Please type in the correct email/password");
+        }
       }
     );
   };
