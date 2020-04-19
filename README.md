@@ -1,4 +1,5 @@
 # React Nutshell: "fōlô"
+![fōlô](./Folo.png)
 
 A [Nashville Software School C38](https://github.com/nss-day-cohort-38) group project by:
 - [Kurt Krafft](https://github.com/kurtkrafft1)

@@ -24,8 +24,10 @@ const Login = props => {
   // ONLY for purposes of this project and using JSON server. Without Server Side.
   const handleLogin = e => {
     e.preventDefault();
-    ApiManager.getLogin("users", credentials.email, credentials.password).then(
-      response => {
+    // ApiManager.getLogin("users", credentials.email, credentials.password).then(
+      ApiManager.get().then(response => {
+        console.log(response)
+      // response => {
         if (response.length > 0 && isChecked === true) {
           props.setUser(response[0], true);
           setCredentials(response[0]);
